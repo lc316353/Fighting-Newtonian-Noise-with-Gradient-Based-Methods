@@ -14,9 +14,11 @@ In general, we find that it is an efficient strategy to initialize the gradient-
 
 ##### Comments:
 
+- The code is based on code by Francesca Badaracco, that was written for https://arxiv.org/abs/2310.05709
 - SeismometerOptimization_PSODE.py will perform a optimization of seismometer positions with metaheuristics starting from random initialization and produces a somehow formatted output file with the results.
 - SeismometerOptimization_JAX.py will perform an optimization of seismometer positions with differentiable methods (especially Adam) starting from random initialization or an existing output file in our format. If using an existing file, make sure that all parameters and the geometry are the same to ensure comparability (they are not automatically read).
 - We are aware that this code is probably not very user-friendly, but we think this is better than not being transparent. Maybe we find the time to make an improved version of the code and place it here.
+- If you have any questions or comments, please contact us at ->patrick.schillings@rwth-aachen.de
 
 <br/><br/>
 
